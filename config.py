@@ -11,7 +11,7 @@ import random
 # 阅读次数 默认40次/20分钟
 #READ_NUM = int(os.getenv('READ_NUM') or 40)
 # 最多6*60分钟
-READ_NUM = random.randint(690, 720)
+READ_NUM = random.randint(600, 650)
 # 需要推送时可选，可选pushplus、wxpusher、telegram
 PUSH_METHOD = "" or os.getenv('PUSH_METHOD')
 # pushplus推送时需填
